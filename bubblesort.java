@@ -1,8 +1,4 @@
-
-//BUBBLE SORT ALGORITHM
 #include <stdio.h>
-
-// Function to print array 
 void display(int arr[], int size) 
 { 
     int i; 
@@ -23,7 +19,7 @@ int main()
         for (j = 0; j < size-i-1; j++) 
            if (array[j] > array[j+1]) 
            {
-              temp = array[j]; // swap the element
+              temp = array[j]; 
               array[j] = array[j+1]; 
               array[j+1] = temp; 
            }
